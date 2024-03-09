@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Kaori Kuwahara Portfolio</title>
+</head>
+
+<body>
+  <!-- ローディング画面 -->
+  <div id="loading">
+    <p>Loading...</p>
+    <div id="loading-screen"></div>
+  </div>
+  <!-- ヘッダー -->
+  <header>
+    <div class="pc-menu">
+      <div class="logo">
+        <h1><a href="index.html">Kaori Kuwahara</a></h1>
+      </div>
+
+      <nav>
+        <ul class="nav-top">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="profile.html">Myprofile</a></li>
+          <li><a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeL7s_E_JKyYyvqAnJoYfcOSIhOkR44Xx57GNawr1svjwcwgw/viewform?embedded=true">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sp-menu">
+      <div class="logo">
+        <h1><a href="index.html">Kaori Kuwahara</a></h1>
+      </div>
+      <div class="sp-nav">
+        <span class="material-icons" id="open">
+          <i class="bi bi-list"></i>
+        </span>
+      </div>
+    </div>
+
+
+    <div class="overlay">
+      <span class="material-icons" id="close">
+        <i class="bi bi-x-square-fill"></i>
+      </span>
+      <nav>
+        <ul class="nav-top">
+
+          <li><a href="index.html">Home</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="profile.html">Myprofile</a></li>
+          <li><a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeL7s_E_JKyYyvqAnJoYfcOSIhOkR44Xx57GNawr1svjwcwgw/viewform?embedded=true">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- カルーセル -->
+  <section class="main-container">
+    <div class="slider">
+      <div><img src="images/256timesSite.png" alt="トップ画像"></div>
+      <div><img src="images/collegeSite.png" alt="トップ画像"></div>
+      <div><img src="images/256timesSite.png" alt="トップ画像"></div>
+      <div><img src="images/256timesSite.png" alt="トップ画像"></div>
+    
+  </div>
+  </section>
+  <!-- 作品コンテナ -->
+  <div class="container">
+    <!-- 自己紹介 -->
+    <section class="container-wrapper">
+    <h1 class="title">
+      <span>Introduction</span>
+    </h1>
+    <h4>Hello！くわはらかおりと申します。</h4>
+    <h4>WEB,チラシ,bannerなど色々作成しております。</h4>
+    <h4>良ければ私のSiteを見て頂けると光栄です!</h4>
+    </section>
+
+    <div class="grid">
+      <section class="col part1 ">
+        <h2 class="sub_title"><a href="works.html">WEB</a></h2>
+        <div class="box_item js-fade">
+          <a href="http://my.internetacademy.jp/~a32303120/cafe_hp/"><img src="images/cafe_pic.png" alt="カフェの写真"></a>
+        </div>
+       
+      </section>
+      <section class="col part1 ">
+        <h2 class="sub_title">Paper</h2>
+        <div class="box_item js-fade">
+          <a href="http://my.internetacademy.jp/~a32303120/cafe_hp/"><img src="images/cafe_pic.png" alt="カフェの写真"></a>
+        </div>
+      </section>
+
+      <section class="col part2">
+        <h2 class="sub_title">Banner</h2>
+        <div class="box_item js-fade">
+          <a href="http://my.internetacademy.jp/~a32303120/MacaronCafe/"><img src="images/Macaroncafe_pic.png"
+              alt="カフェの写真"></a>
+        </div>
+      </section>
+
+      <section class="col part3">
+        <h2 class="sub_title">ECsite</h2>
+        <div class="box_item js-fade">
+          <a href="http://http://my.internetacademy.jp/~a32303120/MacaronCafe/"><img src="images/ECsite.png"
+              alt="カフェの写真"></a>
+        </div>
+      </section>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-icons">
+        <ul>
+          <li><a href="https://www.instagram.com/kaokaokao0621/"><i class="bi bi-instagram"></i></a></li>
+          <li><i class="bi bi-line"></i></li>
+        </ul>
+      </div>
+      <div class="footer-legal">
+        <p>© 2024 Kaori Kuwahara. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+   <!-- トップへ -->
+   <div class="go-to-top active" id="pagetop">
+    <i class="bi bi-arrow-up"></i>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="https://jito-site.com/demo/js/jquery.inview.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
