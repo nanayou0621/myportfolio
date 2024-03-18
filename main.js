@@ -87,5 +87,23 @@ pagetop.addEventListener("click",()=>{
       behavior:"smooth"
   });
 });
-   
+
+
+
+// 画像要素を取得
+const img = document.querySelector('.paper');
+
+// toggle関数の定義
+function toggle() {
+  // 現在の画像のパスが元の画像なら、新しい画像に切り替える
+  if (img.src.includes('images/paper1.png')) {
+    img.src = 'images/big_paper2.png'; // 新しい画像のパスに変更
+  } else {
+    // それ以外の場合は、元の画像に戻す
+    img.src = 'images/paper1.png'; // 元の画像のパスに変更
+  }
+}
+
+// img要素にクリックイベントリスナーを追加
+img.addEventListener('click', toggle);
 }

@@ -217,6 +217,14 @@ header {
   text-align: left;
   color: #b09420;
 }
+.sub_title a{
+  text-decoration: none;
+  color: #ff88cc;
+}
+.sub_title a:hover{
+  text-decoration: none;
+  color:#b09420;
+}
 .main-container{
   margin-top: 120px;
   max-width: 100%;
@@ -328,8 +336,31 @@ footer {
 .works_container{
   padding: 16px;
   margin-top: 120px;
+  text-align: center;
+}
+.website_title{
+  padding: 16px;
+}
+.website_col > h1{
+  position: relative; /* 相対位置指定 */
+  display: inline-block; /* h1をインラインブロック要素として表示 */
+  margin: 0 auto; /* 中央揃えをしたい場合 */
+  
 }
 
+
+.grid > h1{
+  text-align: left;
+}
+.video{
+  width: 100%;
+  height: 100%;
+}
+.paper{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
 /******************************* パソコンページ *******************************/
 @media screen and (min-width: 768px) {
 
@@ -337,7 +368,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
+  .grid h1{
+      text-align: center;
+      margin-top: 100px;
+  }
   .col {
     padding: 16px;
   }
@@ -382,4 +416,9 @@ footer {
     display: block; /* ブロックレベル要素として表示 */
     object-fit: revert-layer;
   }
+
+  /* worksページ */
+  .works_container{
+    margin-top: 150px;
+}
 }
