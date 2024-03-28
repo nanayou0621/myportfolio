@@ -361,6 +361,13 @@ footer {
   height: 100%;
   cursor: pointer;
 }
+
+/**************** profileページ *****************/
+
+.profile_container{
+  margin-top: 100px;
+  padding: 16px;
+}
 /******************************* パソコンページ *******************************/
 @media screen and (min-width: 768px) {
 
@@ -420,5 +427,10 @@ footer {
   /* worksページ */
   .works_container{
     margin-top: 150px;
+}
+/**************** profileページ *****************/
+
+.profile_container{
+  margin-top: 150px;
 }
 }
